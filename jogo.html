@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Coletar Maçãs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Jogo de Coletar Maçãs</h1>
+        <div id="scoreboard">
+            <p>Usuário: <input type="text" id="username" placeholder="Digite seu nome"></p>
+            <p>Pontuação: <span id="score">0</span></p>
+            <p>Tempo restante: <span id="timer">120</span> segundos</p>
+            <button id="start-button">Iniciar Jogo</button>
+            <button id="reset-button">Resetar Jogo</button>
+        </div>
+        <div id="game-area"></div>
+        <div id="previous-scores">
+            <h2>Pontuações Anteriores</h2>
+            <ul id="score-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

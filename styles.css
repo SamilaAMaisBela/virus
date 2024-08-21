@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    width: 300px;
+}
+
+#game-area {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #333;
+    background-color: #e0e0e0;
+    overflow: hidden;
+}
+
+.apple {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('apple.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#previous-scores {
+    margin-top: 20px;
+}
+
+#previous-scores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#previous-scores li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+}
+/* Adicione ao seu arquivo styles.css */
+.red-point {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,3 @@
+que mostre a pontuaçao das partidas anteriores 
+que seja obrigatorio colocar nome antes de comecar o jogo
+que apareca a opisao de resetar o jogo
